@@ -2,7 +2,7 @@ function Mostrar()
 {
 //tomo la edad  
 
-	var edad
+	var edad;
 	var estado;
 
 	edad=parseInt(document.getElementById('edad').value);
