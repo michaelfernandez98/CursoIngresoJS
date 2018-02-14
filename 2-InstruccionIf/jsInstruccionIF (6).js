@@ -10,14 +10,17 @@ function Mostrar()
 		{
 			alert("Usted es mayor de edad");
 		}
-		else if (edad<18&&edad>12)
+	else
+		{if (edad<18&&edad>12)
 		 {
 		 	alert("Usted es adolescente");
 		 }
+
 		 else
 		 {
 		 	alert("Usted es niño");
 		 }
+		}
 
 
 }//FIN DE LA FUNCIÓN
